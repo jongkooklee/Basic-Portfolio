@@ -9,8 +9,28 @@ header {
 	margin: auto;
 }
 
-section {
+.box1 {
 	padding-top: 40px;
+	width: 800px;
+	margin: auto;
+}
+
+.about {
+	width: 400px;
+	background-color:dodgerblue;
+	padding: 40px;
+	margin-top:40px;
+}
+
+#aboutme {
+	text-align: left;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+.connect {
+	width: 300px;
 }
 
 #name {
