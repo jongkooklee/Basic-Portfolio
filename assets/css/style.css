@@ -1,9 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-color: lightgray;
-/* WHY WONT BACKGROUND IMAGE WORK?
-background-image: url("assets/images/darkness");*/
+  background-image: url("../images/steps.png");
 }
 
 .content {
@@ -31,7 +29,7 @@ DOESNT WORK*/}
 header {
 	background-color: #ffffff;
 	height: 53px;
-	border-bottom: 3px solid gray;
+	border-bottom: 2px solid #cccccc;
 }
 
 .box1 p {
@@ -41,16 +39,17 @@ header {
 }
 
 .box1 {
-	margin-left: 200px;
-	margin-right: 200px;
+	width: 960px;
+	margin: auto;
 }
 
 .about {
-	width: 650px;
+	width: 570px;
 	background-color:white;
-	padding: 40px;
+	padding: 20px 40px 40px 40px;
 	margin-top: 50px;
-	height: 600px;
+	height: 100%;
+	border: 1px solid #ccc;
 }
 
 #box1header {
@@ -63,15 +62,17 @@ header {
 	padding-bottom: 20px;
 }
 
+/*HOW DO YOU AUTO-DISTRIBUTE IMAGES HORIZONTALLY?*/
+
 .sidebar {
-	width: 270px;
+	width: 190px;
 	height: 300px;
-	float: left;
+	float: right;
 	padding-left: 40px;
 	padding-right: 40px;
 	margin-top: 50px;
-	margin-left: 50px;
 	background-color: white;
+	border: 1px solid #ccc;
 }
 
 #name {
@@ -118,7 +119,7 @@ header {
 
 #contactme {
 	border-bottom: 1px solid lightgray;
-	font-size: 25px;
+	font-size: 21px;
 	font-family: "Georgia", Times, Times New Roman, serif;
 	font-weight: bold;
 	color:#4aaaa5;
@@ -162,7 +163,6 @@ input[type=text], select, textarea {
 input[type=submit] {
 	background-color: #4aaaa5;
 	font-family: "Arial", sans-serif;
-	font-weight: bold;
 	font-size: 20px;
 	color: white;
 	line-height: 2;
@@ -183,4 +183,20 @@ label {
 	font-family:"Arial",Helvetica, sans-serif;
 	font-size: 20px;
 	color:#777777;
+}
+/*CONTACT FORM CSS*/
+
+/*IS THERE A WAY TO AUTO-CENTER EVERYTHING?*/
+
+
+p.portfoliotext {
+	width: 260px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 20px;
+	color:white;
+	background-color: #4aaaa5;
+	text-align: center;
+	line-height: 2;
+	position: relative;
+	bottom: 90px;
 }
