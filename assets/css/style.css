@@ -2,23 +2,47 @@ html, body {
   height: 100%;
   margin: 0;
   background-color: lightgray;
+/* WHY WONT BACKGROUND IMAGE WORK?
+background-image: url("assets/images/darkness");*/
 }
+
+.content {
+	min-height: 100%;
+}
+
+.content-inside {
+	padding:20px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	height: 50px;
+	margin-top: -50px;
+	text-align: center;
+	color: white;
+	background-color: darkgrey;
+	font-family: "Arial";
+	font-size: 15px;
+	line-height: 3;
+/*	border-top: 3px #4aaaa5;
+
+DOESNT WORK*/}
 
 header {
 	background-color: #ffffff;
-	height: 53.75px;
-	border-bottom: 3px #cccccc;
+	height: 53px;
+	border-bottom: 3px solid gray;
 }
 
 .box1 p {
 	font-family:"Arial",Helvetica, sans-serif;
+	font-size: 20px;
 	color:#777777;
 }
 
 .box1 {
 	margin-left: 200px;
 	margin-right: 200px;
-	background-color: white;
 }
 
 .about {
@@ -29,20 +53,22 @@ header {
 	height: 600px;
 }
 
-#aboutme {
+#box1header {
 	text-align: left;
 	color: #4aaaa5;
 	font-size: 30px;
 	font-family: "Georgia", Times, Times New Roman, serif;
 	font-weight: bold;
 	border-bottom: 2px solid lightgray;
+	padding-bottom: 20px;
 }
 
 .sidebar {
 	width: 270px;
-	height: 600px;
+	height: 300px;
 	float: left;
-	padding: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 	margin-top: 50px;
 	margin-left: 50px;
 	background-color: white;
@@ -55,7 +81,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  margin-left:100px;
+  margin-left: 100px;
 }
 
 #jameslee {
@@ -71,20 +97,23 @@ header {
 
 #r-header1 {
 	border-right: 1px solid gray;
+	padding-right: 6px;
 }
 
 #r-header2 {
 	border-right: 1px solid gray;
+	padding-right: 6px;
 }
 
 #links {
 	text-align: center;
-	height: 53.75px;
+	height: 53px;
 	line-height: 3;
 	background-color: white;
 	margin: auto;
 	font-family: "Arial", Helvetica, sans-serif;
 	font-weight: bold;
+	font-size: 18px;
 }
 
 #contactme {
@@ -93,6 +122,7 @@ header {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	font-weight: bold;
 	color:#4aaaa5;
+	line-height: 2;
 }
 
 .container {
@@ -100,12 +130,6 @@ header {
   top-margin: 50px;
   left-margin: 100px;
   right-margin: 100px;
-}
-
-.contents {
-  min-height: 100%;
-  width: 100%
-  margin-bottom: -50px;
 }
 
 a:link {
@@ -116,4 +140,47 @@ a:link {
 a:visited {
 	color: gray;
 	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+/*CONTACT FORM CSS*/
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 20px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	line-height: 2;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+input[type=submit]:hover {
+	background-color: white;
+}
+
+input[type=submit]:active {
+	background-color: darkgrey
+}
+
+label {
+	font-family:"Arial",Helvetica, sans-serif;
+	font-size: 20px;
+	color:#777777;
 }
