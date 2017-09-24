@@ -34,7 +34,7 @@ header {
 
 .box1 p {
 	font-family:"Arial",Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	color:#777777;
 }
 
@@ -62,11 +62,15 @@ header {
 	padding-bottom: 20px;
 }
 
+.sidebar img {
+	padding-left: 8px;
+}
+
 /*HOW DO YOU AUTO-DISTRIBUTE IMAGES HORIZONTALLY?*/
 
 .sidebar {
 	width: 190px;
-	height: 300px;
+	height: 272px;
 	float: right;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -185,9 +189,6 @@ label {
 	color:#777777;
 }
 /*CONTACT FORM CSS*/
-
-/*IS THERE A WAY TO AUTO-CENTER EVERYTHING?*/
-
 
 p.portfoliotext {
 	width: 260px;
